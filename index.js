@@ -17,7 +17,7 @@ app.use(cors({
 app.use(cookieParser())
 app.use('/auth',UserRouter)
 
-mongoose.connect('mongodb://127.0.0.1:27017/authentication')
+mongoose.connect('mongodb+srv://harishmano98:Harish%402024@harish-mongo.uf15eex.mongodb.net/')
 
 
 app.listen(process.env.PORT, () => {
