@@ -68,7 +68,7 @@ router.post('/forgot-password', async (req, res) => {
         from: 'harishmano98@gmail.com',
         to: email,
         subject: 'Reset password',
-        text: `Click the following link to reset your password: http://localhost:5173/resetPassword/${token}`
+        text: `Click the following link to reset your password: https://forget-password-be.onrender.com/resetPassword/${token}`
       };
   
       // Send email
